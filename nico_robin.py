@@ -68,7 +68,7 @@ def pedir_arquivos() -> list[str]:
 def main():
     arquivos_metabase = pedir_arquivos()
 
-    dataframes = [ler_arquivo_metabase(arq) for arq in arquivos_metabase]]
+    dataframes = [ler_arquivo_metabase(arq) for arq in arquivos_metabase]
 
     df = pd.concat(dataframes, ignore_index=True)
 
