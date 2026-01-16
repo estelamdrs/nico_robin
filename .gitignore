@@ -1,0 +1,8 @@
+# Ambiente virtual
+.venv/
+
+# Arquivos CSV de entrada/saída
+*.csv
+
+# Arquivos do sistema
+.DS_Store
